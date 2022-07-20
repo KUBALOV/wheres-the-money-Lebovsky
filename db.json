@@ -1,0 +1,69 @@
+{
+  "finance-expense": [
+    {
+      "id": "finExpID-1",
+      "type": "expense",
+      "value": "25",
+      "category-id": "finCatID-1",
+      "category-name": "Транспорт",
+      "description": "Маршрутка до работы"
+    },
+    {
+      "value": "100",
+      "description": "",
+      "id": "Z9EqtJ7"
+    },
+    {
+      "value": "100",
+      "description": "",
+      "id": "CjMTiJ4"
+    },
+    {
+      "value": "100",
+      "description": "",
+      "id": "otWfMPk"
+    },
+    {
+      "value": "100",
+      "description": "",
+      "id": "ZCK7avS"
+    },
+    {
+      "value": "100",
+      "description": "dfdf",
+      "id": "lgMw-3x"
+    }
+  ],
+  "finance-income": [
+    {
+      "id": "finIncID-1",
+      "type": "expense",
+      "value": "25",
+      "category-id": "finCatID-1",
+      "category-name": "Транспорт",
+      "description": "Маршрутка до работы"
+    }
+  ],
+  "finance-categoties": [
+    {
+      "id": "finCatID-1",
+      "type": "expense",
+      "name": "Без категории"
+    },
+    {
+      "id": "finCatID-2",
+      "type": "expense",
+      "name": "Маршрутка"
+    },
+    {
+      "id": "finCatID-3",
+      "type": "expense",
+      "name": "Питание"
+    },
+    {
+      "id": "finCatID-4",
+      "type": "income",
+      "name": "Зарплата"
+    }
+  ]
+}

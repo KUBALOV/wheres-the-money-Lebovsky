@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Финансовый менеджер</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <!-- Боковая панель -->
+            <aside class="aside">
+
+            </aside>
+            <!-- Конец - Боковая панель -->
+
+            <!-- Область вывода результата -->
+            <div class="result">
+
+            </div>
+            <!-- Конец Область вывода результата -->
+
+            <form class="expense-form" action="http://localhost:3000/finance-expense" method="post" autocomplete="off">
+                <input type="hidden" id="fin-type" value="expense">
+                <input type="hidden" id="fin-expense-id" value="finExpID-2">
+                <div class="div">
+                    <input type="text" id="fin-expense-value" name="value" placeholder="Значение" value="100">
+                </div>
+                
+                <div class="div">
+                    <select id="fin-expense-categories">
+
+                    </select>
+                </div>
+                
+                <div>
+                    <textarea  id="fin-expense-desc" name="description" id="" cols="30" rows="10" placeholder="Описание"></textarea>
+                </div>
+                
+                <input id="fin-expense-submit" type="submit">
+
+
+            </form>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
